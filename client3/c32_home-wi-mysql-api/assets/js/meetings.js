@@ -1,3 +1,4 @@
+
 //---------------------------------------------------------------------------------------------------
 
 aTests='live in Browser'
@@ -51,7 +52,7 @@ function  fmtMeetings( pJSON ) {
 //     ---  -------  =  -----------------------------------
 
   function  fmtMeeting( pMeeting, i ) {
-     var aMeetingDateBanner = "Next Meeting" + pMeeting.strMeetingDate
+     var aMeetingDateBanner = "Next Meeting " + pMeeting.strMeetingDate
      $( "#MeetingDateBanner" ).html(aMeetingDateBanner)
      // $( "#MeetingDateBanner" ).html(pMeeting.strMeetingDate)
      // $( ".next-meeting-date" ).html(pMeeting.strMeetingDate)

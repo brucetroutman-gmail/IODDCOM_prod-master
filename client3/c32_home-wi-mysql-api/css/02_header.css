@@ -109,6 +109,11 @@ td.HeaderNavListItemLogin {
     font-family: var(--GlobalFontFamily);
     font-size: var(--MenuCTAFontSize);
 }
+#MeetingDateBanner {
+    font-family: var(--GlobalFontFamily);
+    font-size: var(--MenuCTAFontSize);
+
+}
 /*------------------------------------------*/
 .HeaderNavListItemCTA {
     animation     : wiggle 400ms 2s 8 ease-out none;
