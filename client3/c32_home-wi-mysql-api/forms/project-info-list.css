@@ -248,7 +248,21 @@ and (max-width: 700px)
       .member-title {
         font-size: 16px;
       }      
-
+      .main-table {
+        width: 95%;
+        margin-left: 10px;
+      }
+      .owner-title,
+      .owner-name,
+      .collaborator-title,
+      .collaborator-name {
+        font-size: 18px;
+        margin-left: 10px;
+      }
+      .project-name-primary,
+      .project-name-secondary {
+        font-size: 13px;
+      }
       /*--------------------------------*/
 
       .Footer {
