@@ -269,7 +269,8 @@ function putField (aName, aValue) {
                 <td></td>
                 <td align="right">
                     <select>
-                        <option Id="0">Add a Collaborator</option>
+                        <option Id="0">Under Construction</option>
+<!--                        <option Id="0">Add a Collaborator</option>
                         <option Id="9">Kennett Fussell</option>
                         <option Id="90">Richard Schinner</option>
                         <option Id="0">Mickey Mouse</option>
@@ -286,7 +287,8 @@ function putField (aName, aValue) {
                         <option Id="0">Elon Musk</option>
                         <option Id="0">Catturd</option>
                         <option Id="0">Blue NSX</option>
-                    </select>
+-->
+                        </select>
                     <!--<input type="text" name="collaboratoradd" placeholder="Add Collaborator" id="collaboratoradd">-->
                 </td>
             </tr>
