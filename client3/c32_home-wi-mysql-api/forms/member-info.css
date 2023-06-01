@@ -562,7 +562,7 @@ and (max-width: 700px)
         font-size: 14px;
       }      
       .form-setting {
-        width: 360px;
+        width: 340px;
         background-color: whitesmoke;
         box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
         margin: 10px auto;
@@ -578,7 +578,7 @@ and (max-width: 700px)
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding-top: 10px;
+        padding-top: 0px;
       }
       .form-setting form label {
         display: flex;
@@ -613,7 +613,7 @@ and (max-width: 700px)
         transition: background-color 0.2s;
       }
       .checker {
-        margin: 85px 0px 0px 335px;
+        margin: 85px 0px 0px 310px;
       }
           
       ::-webkit-input-placeholder {
@@ -625,11 +625,11 @@ and (max-width: 700px)
       .name-title {
         height: 20px;
         width: 95%;
-        padding: 0px 0px 15px 0px;
+        padding: 0px 0px 0px 5px;
       }
       #firstname,
       #lastname {
-        width: 140px;
+        width: 130px;
       }
       #middleinits,
       #suffix {
@@ -644,10 +644,10 @@ and (max-width: 700px)
         padding: 0px 0px 0px 0px;
       }
       #email{
-        width: 210px
+        width: 180px
       }
       #password {
-        width: 135px
+        width: 140px
       }
 
       /*--------------------------------*/
@@ -668,7 +668,7 @@ and (max-width: 700px)
       #co-url,
       #co-addr1,
       #co-addr2 {
-        width: 345px;
+        width: 325px;
         margin-left: 5px;
       }
 
@@ -680,10 +680,10 @@ and (max-width: 700px)
         padding: 0px 0px 15px 0px;
       }
       #city {
-        width: 160px;
+        width: 140px;
       }
       #state {
-        width: 55px;
+        width: 50px;
       }
       #zip {
         width: 70px;
@@ -702,7 +702,7 @@ and (max-width: 700px)
       }
       #phone1,
       #phone2 {
-        width: 170px
+        width: 161px
       }
 
       /*--------------------------------*/
@@ -714,7 +714,7 @@ and (max-width: 700px)
 
       }
       #bio {
-        width: 345px;
+        width: 325px;
         margin-left: 5px;
         height: 200px;
         scroll-behavior: auto;

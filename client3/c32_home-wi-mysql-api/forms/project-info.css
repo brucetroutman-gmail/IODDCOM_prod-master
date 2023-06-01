@@ -455,109 +455,195 @@ and (max-width: 700px)
     color: #DCDCDC;
   }
 
-  /*--------------------------------*/
+      /*======================================*/
+      .name-title {
+        display: inline-block;
+        list-style-type: none;
+        height: 20px;
+        width: 70%;
+        padding: 0px 0px 15px 0px;
+        margin-left: 0px;
+      }
+      .name-info {
+        display: flex;
+        list-style-type: none;
+        height: 50px;
+      }
+      #projectname {
+        width: 480px;
+        margin-left: 0px;
+      }
 
-  .name-title {
-    height: 20px;
-    width: 95%;
-    padding: 0px 0px 15px 0px;
-  }
-  #firstname,
-  #lastname {
-    width: 210px;
-  }
-  #middleinits,
-  #suffix {
-    width: 60px;
-  }
 
-  /*--------------------------------*/
+      /*======================================*/
 
-  .credentials-title {
-    height: 20px;
-    width: 95%;
-    padding: 0px 0px 15px 0px;
-  }
-  #email{
-    width: 330px
-  }
-  #password {
-    width: 210px
-  }
+      .client-title {
+        display: inline-block;
+        list-style-type: none;
+        height: 20px;
+        width: 70%;
+        padding: 0px 0px 25px 0px;
+      }
+      .client-name {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        height: 50px;
+      }
+      #clientname {
+        width: 480px;
+        margin-left: 0px;
+      }
 
-  /*--------------------------------*/
+      /*======================================*/
 
-  .company-title {
-    height: 30px;
-    width: 95%;
-    padding: 0px 0px 25px 0px;
-  }
-  .company-url-title,
-  .company-address1-title,
-  .company-address2-title {
-    height: 10px;
-    width: 95%;
-    padding: 0px 0px 0px 0px;
-  }
-  #co-name,
-  #co-url,
-  #co-addr1,
-  #co-addr2 {
-    width: 540px;
-    margin-left: 10px;
-  }
+      .project-url-title {
+        display: inline-block;
+        list-style-type: none;
+        height: 20px;
+        width: 70%;
+        padding: 0px 0px 25px 0px;
+      }
+      .project-url {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        width: 600px;
+        height: 50px;
+      }
+      #projecturl {
+        width: 480px;
+        margin-left: 40px;
+      }
+      #ProjectURLBanner a {
+        font-size: 14px;
+        color: blue;
+        background-color: #d1e5f4; /* lightblue */
+        padding: 0px 5px 0px 5px;
+      }
+      /*======================================*/
 
-  /*--------------------------------*/
+      .client-url-title {
+        display: inline-block;
+        list-style-type: none;
+        height: 20px;
+        width: 70%;
+        padding: 0px 0px 25px 0px;
+      }
+      .client-url {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        width: 600px;
+        height: 50px;
+      }
+      #clienturl {
+        width: 480px;
+        margin-left: 40px;
+      }
+      #ClientURLBanner a {
+        font-size: 14px;
+        color: blue;
+        background-color: #d1e5f4; /* lightblue */
+        padding: 0px 5px 0px 5px;
+      }
+      /*======================================*/
 
-  .city-state-zip-country-title {
-    height: 20px;
-    width: 95%;
-    padding: 0px 0px 15px 0px;
-  }
-  #city {
-    width: 280px;
-  }
-  #state {
-    width: 80px;
-  }
-  #zip {
-    width: 80px;
-  }
-  #country {
-    width: 100px;
-  }
+      .ind-loc-info-title {
+        display: inline-block;
+        list-style-type: none;
+        height: 20px;
+        width: 70%;
+        padding: 0px 0px 25px 0px;
+      }
+      .ind-loc-info {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        height: 50px;
+      }
+      #industry,
+      #location {
+        width: 240px;
+        margin-left: 0px;
+      }
 
-  /*--------------------------------*/
+      /*======================================*/
 
-  .phone-info-title {
-    height: 20px;
-    width: 95%;
-    padding: 0px 0px 30px 0px;
+      .members-title {
+        display: inline-block;
+        list-style-type: none;
+        height: 20px;
+        width: 70%;
+        padding: 0px 0px 25px 0px;
+      }
+      .members-info {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        height: 50px;
+      }
+      #role {
+        width: 160px;
+        margin-left: 0px;
+      }
+      #duration {
+        width: 160px;
+      }
+      #dates {
+        width: 160px
+      }
 
-  }
-  #phone1,
-  #phone2 {
-    width: 270px
-  }
+      /*======================================*/
 
-  /*--------------------------------*/
-
-  .bio-title {
-    height: 20px;
-    width: 95%;
-    padding: 0px 0px 20px 0px;
-
-  }
-  #bio {
-    width: 540px;
-    margin-left: 10px;
-    height: 200px;
-    scroll-behavior: auto;
-  }
-  textarea #bio {
-    padding: 110px 10px 10px 110px;
-  }
-  /*--------------------------------*/
+      .description-title {
+        display: inline-block;
+        list-style-type: none;
+        height: 20px;
+        width: 70%;
+        padding: 0px 0px 15px 0px;
+      }
+      .description-info {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        width: 600px;
+        vertical-align: top;
+        padding-bottom: 30px;
+      }
+      #description {
+        width: 480px;
+        margin-left: 40px;
+        height: 150px;
+      }
+      /*======================================*/
+      /*--------------------------------*/
+      /*======================================*/
+      .collaborator-div{
+        position: relative;
+        width: 300px;
+      }
+      .collaborators-title {
+        display: flex;
+        list-style-type: none;
+        scroll-behavior: auto;
+        height: 20px;
+        width: 10%;
+        padding: 0px 0px 0px 0px;
+      }
+      .collaborators {
+        text-align: center;
+        list-style-type: none;
+        height: 20px;
+      }
+      #collaborators {
+        width: 480px;
+        text-transform: capitalize;
+      }
+      #collaboratoradd {
+        width: 220px;
+      }
+      /*--------------------------------*/
 
   .Footer {
     display: none;
@@ -602,8 +688,10 @@ and (max-width: 700px)
       .form-setting form {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 10px;
+        justify-content: left;
+        padding-top: 0px;
+        margin-left: 10px;
+        width: 100%;
       }
       .form-setting form label {
         display: flex;
@@ -647,104 +735,199 @@ and (max-width: 700px)
 
       /*--------------------------------*/
 
+      /*======================================*/
       .name-title {
+        display: inline-block;
+        list-style-type: none;
         height: 20px;
-        width: 95%;
+        width: 70%;
         padding: 0px 0px 15px 0px;
+        margin-left: 0px;
       }
-      #firstname,
-      #lastname {
-        width: 140px;
+      .name-info {
+        display: flex;
+        list-style-type: none;
+        height: 50px;
       }
-      #middleinits,
-      #suffix {
-        width: 30px;
+      #projectname {
+        width: 350px;
+        margin-left: -5px;
       }
 
-      /*--------------------------------*/
 
-      .credentials-title {
+      /*======================================*/
+
+      .client-title {
+        display: inline-block;
+        list-style-type: none;
         height: 20px;
-        width: 90%;
-        padding: 0px 0px 0px 0px;
+        width: 70%;
+        padding: 0px 0px 25px 0px;
       }
-      #email{
-        width: 210px
+      .client-name {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        height: 50px;
       }
-      #password {
-        width: 135px
+      #clientname {
+        width: 350px;
+        margin-left: -5px;
       }
 
-      /*--------------------------------*/
+      /*======================================*/
 
-      .company-title {
-        height: 30px;
+      .project-url-title {
+        display: inline-block;
+        list-style-type: none;
+        height: 20px;
         width: 95%;
         padding: 0px 0px 25px 0px;
       }
-      .company-url-title,
-      .company-address1-title,
-      .company-address2-title {
-        height: 10px;
-        width: 95%;
-        padding: 0px 0px 0px 0px;
+      .project-url {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        width: 600px;
+        height: 50px;
       }
-      #co-name,
-      #co-url,
-      #co-addr1,
-      #co-addr2 {
-        width: 345px;
-        margin-left: 5px;
+      #projecturl {
+        width: 350px;
+        margin-left: -5px;
       }
+      #ProjectURLBanner a {
+        font-size: 14px;
+        color: blue;
+        background-color: #d1e5f4; /* lightblue */
+        padding: 0px 5px 0px 5px;
+      }
+      /*======================================*/
 
-      /*--------------------------------*/
-
-      .city-state-zip-country-title {
+      .client-url-title {
+        display: inline-block;
+        list-style-type: none;
         height: 20px;
         width: 95%;
+        padding: 0px 0px 25px 0px;
+      }
+      .client-url {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        width: 600px;
+        height: 50px;
+      }
+      #clienturl {
+        width: 350px;
+        margin-left: -5px;
+      }
+      #ClientURLBanner a {
+        font-size: 14px;
+        color: blue;
+        background-color: #d1e5f4; /* lightblue */
+        padding: 0px 5px 0px 5px;
+      }
+      /*======================================*/
+
+      .ind-loc-info-title {
+        display: inline-block;
+        list-style-type: none;
+        height: 20px;
+        width: 70%;
+        padding: 0px 0px 25px 0px;
+      }
+      .ind-loc-info {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        height: 50px;
+      }
+      #industry,
+      #location {
+        width: 176px;
+        margin-left: -5px;
+      }
+
+      /*======================================*/
+
+      .members-title {
+        display: inline-block;
+        list-style-type: none;
+        height: 20px;
+        width: 95%;
+        padding: 0px 0px 25px 0px;
+      }
+      .members-info {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        height: 50px;
+      }
+      #role {
+        width: 115px;
+        margin-left: -5px;
+      }
+      #duration {
+        width: 115px;
+      }
+      #dates {
+        width: 115px
+      }
+
+      /*======================================*/
+
+      .description-title {
+        display: inline-block;
+        list-style-type: none;
+        height: 20px;
+        width: 70%;
         padding: 0px 0px 15px 0px;
       }
-      #city {
-        width: 160px;
+      .description-info {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        width: 600px;
+        vertical-align: top;
+        padding-bottom: 30px;
       }
-      #state {
-        width: 55px;
+      #description {
+        width: 350px;
+        margin-left: -5px;
+        height: 150px;
       }
-      #zip {
-        width: 70px;
-      }
-      #country {
-        width: 60px;
+      /*======================================*/
+      /*======================================*/
+
+      #collaborator-add {
+        display: flex;
       }
 
-      /*--------------------------------*/
-
-      .phone-info-title {
-        height: 20px;
-        width: 95%;
-        padding: 0px 0px 30px 0px;
-
+      /*======================================*/
+      .collaborator-div{
+        position: relative;
+        width: 300px;
       }
-      #phone1,
-      #phone2 {
-        width: 170px
-      }
-
-      /*--------------------------------*/
-
-      .bio-title {
-        height: 20px;
-        width: 95%;
-        padding: 0px 0px 20px 0px;
-
-      }
-      #bio {
-        width: 345px;
-        margin-left: 5px;
-        height: 200px;
+      .collaborators-title {
+        display: flex;
+        list-style-type: none;
         scroll-behavior: auto;
+        height: 20px;
+        width: 10%;
+        padding: 0px 0px 0px 60px;
       }
-
+      .collaborators {
+        text-align: center;
+        list-style-type: none;
+        height: 20px;
+      }
+      #collaborators {
+        width: 480px;
+        text-transform: capitalize;
+      }
+      #collaboratoradd {
+        width: 220px;
+      }
       /*--------------------------------*/
 
       .Footer {

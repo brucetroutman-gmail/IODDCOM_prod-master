@@ -112,7 +112,7 @@ td.HeaderNavListItemLogin {
 #MeetingDateBanner {
     font-family: var(--GlobalFontFamily);
     font-size: var(--MenuCTAFontSize);
-
+    /* font-size: 10px; */
 }
 /*------------------------------------------*/
 .HeaderNavListItemCTA {
@@ -442,6 +442,9 @@ and (max-width: 740px)
             td.HeaderSpacer {
                 width: 40%;
             }
+            .dropbtn {
+                font-size: 12px;
+            }
             .dropdown-content a {
                 padding: 7px 12px;
             }    
@@ -462,6 +465,10 @@ and (max-width: 740px)
                 display: flex;
                 width: 5%;
             }    
+            #MeetingDateBanner {
+                font-size: 12px;
+            }
+
             #log {
                 display: flex;
             }
@@ -574,8 +581,11 @@ and (max-width: 440px)
                 }
                 .next-meeting-date,
                 .HeaderNavListItemCTA a {
-                    font-size: 13px;
+                    font-size: 12px;
                     padding: 6px;
+                }
+                #MeetingDateBanner {
+                    font-size: 10px;
                 }
                 #log {
                     display: none;

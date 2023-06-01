@@ -160,8 +160,9 @@ The @keyframes wiggle properties
     background-color: blue; /*var(--HeaderFooterBGColor);*/
     color: white;
     border-radius: 8px;
-    font-size: var(--MenuCTAFontSize);
     padding: 6px;
+    font-size: 10px;
+    /* font-size: var(--MenuCTAFontSize); */
     font-family: var(--GlobalFontFamily);
     font-weight: 600;
     border: none;
@@ -439,6 +440,9 @@ and (max-width: 740px)
             }
             td.HeaderSpacer {
                 width: 40%;
+            }
+            .dropbtn {
+                font-size: 12px;
             }
             .dropdown-content a {
                 padding: 7px 12px;
