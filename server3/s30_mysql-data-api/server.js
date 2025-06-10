@@ -11,7 +11,7 @@ var app         =  express();
 // -------------------------------------------------------------------------
 
 var pDB = mysql.createConnection( {
-        host     : '45.32.219.12',
+        host     : '92.112.184.206',
         user     : 'nimdas',
         password : 'FormR!1234',
         database : 'iodd'
