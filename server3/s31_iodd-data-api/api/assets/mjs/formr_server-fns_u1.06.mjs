@@ -615,6 +615,7 @@
       case 'put':
       case 'delete':
             aRoute     =  aRoute ? aRoute : aMethod_                                                        // .(30528.04.13 RAM Geez Louise)
+            aRoute     =  aRoute.replace( aAPI_Host, "" )                                                   // .(51122.04.x  RAM Geez Louise is right)
             aMsg       = `${ aMethod.toUpperCase().padEnd(4) } Route, '${aAPI_Host}${aRoute}, set`; break   // .(30415.03.2).(30526.01.22 RAM Pad method)
 
       case 'abort':                                                                                         //#.(30528.04.14 RAM Abort.  What about sayErr)
@@ -752,7 +753,7 @@
         if (aAPI_Host == '') {                                                                              // .(30214.03.11)
             console.log( `\n    Server is running at: http://localhost:${nPort}` )                          // .(30213.02.1 Change port from 3000 to 3002).(30213.02.5)
         } else {                                                                                            // .(30214.03.12 Beg)
-            console.log( `\n    Server is running at: ${ aRemote_Host }${aAPI_Host} -> port:${nPort}` )     // .(30322.03.5)
+            console.log( `\n    Server is running at: ${ aRemote_Host }${aAPI_Host} -> http://localhost:${nPort}` )     // .(30322.03.5)
             }                                                                                               // .(30214.03.12 End)
 //     var  __filepath =  process.argv[1]                                                                   //#.(30315.01.1)
        var  __filepath =  new Error().stack.match( /IODD-Server_u.+\.mjs/ )[0]                              // .(30315.01.1 RAM get correct running server file)

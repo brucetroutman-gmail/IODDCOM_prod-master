@@ -18,7 +18,7 @@
             //debugger 
             console.log( "inc-section1.html[1]  Loading 1st module script" )               // .(30505.03.4 RAM Must be after import)
 
-        await setAPI_URL( )                                                                  // .(30505.01.2 RJS Use here).(30507.01.2 RAM Remove it).(30507.02.2 RAM Fetch aAPI_URL)
+        await setAPI_URL( )                                                                // .(30505.01.2 RJS Use here).(30507.01.2 RAM Remove it).(30507.02.2 RAM Fetch aAPI_URL)
             console.log( "inc-section1.html[3]  aAPI_URL fetched" )                        // .(30507.02.10)
             console.log( "inc-section1.html[4]  Continue loading 1st module script" )      // .(30507.01.23) 
 
@@ -26,7 +26,8 @@
         var n  = c.indexOf("=")
         var id = (n > 0) ? parseInt(c.substring(n + 1)) : 0 
 
-        var aDB_Server = typeof(aAPI_URL) == 'undefined' ? 'undefined' : aAPI_URL
+//      var aDB_Server = typeof(aAPI_URL) == 'undefined' ? 'undefined' : aAPI_URL`      //#.(51122.04.1) 
+        var aDB_Server = typeof(aAPI_URL) == 'undefined' ? '' : `${aAPI_URL}/members`   // .(51122.04.1 RAM Add /members)   
             console.log( `inc-section1.html[8]  Fetching data from: '${aDB_Server}?id=${ id }'` )    
 
             var pWelcome = document.getElementById( "WelcomeBanner" )
@@ -38,9 +39,10 @@
                 .then( ( json ) => {  
                     var aHTML  = fmtWelcome( json )
                         pWelcome.innerHTML = aHTML 
-                        console.log( "inc-section1.html[9]  Loaded Welcome DIV" )          // .(30507.01.12) 
+                        console.log( "inc-section1.html[9]  Loaded Welcome DIV" )       // .(30507.01.12) 
                         }) 
-                .catch(( err  ) => alert ( `inc-section1.html[8]  *** ${err.message}` ));                     
+//            .catch(( err  ) => alert ( `inc-section1.html[8]  *** ${err.message}` )); //#.(51122.04.2 RAM Don't tell the user)                    
+        .catch(( err  ) => console.log ( `inc-section1.html[8]  *** ${err.message}` )); // .(51122.04.2 RAM Just display in borwser Dev-Tools.  Who will know?)                  
 
                 function fmtWelcome ( pJSON ) {
                     if (pJSON.warning) { 
@@ -56,7 +58,7 @@
                     return aHTML
                     } // eof fmtWelcome  
 
-    console.log( "inc-section1.html[10] 1st Module script loaded"  )               // .(30423.03.4).(30507.01.27)
+    console.log( "inc-section1.html[10] 1st Module script loaded"  )                    // .(30423.03.4).(30507.01.27)
 </script>
 
 
